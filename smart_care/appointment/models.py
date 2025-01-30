@@ -23,3 +23,4 @@ class Appointment(models.Model):
     
     def __str__(self):
         return f"Doctor : {self.doctor.user.first_name} , Patient : {self.patient.user.first_name}"
+    
